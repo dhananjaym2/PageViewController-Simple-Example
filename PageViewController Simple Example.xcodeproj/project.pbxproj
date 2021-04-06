@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		80001C2B2619C67F007D4FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C2A2619C67F007D4FB2 /* AppDelegate.swift */; };
 		80001C2D2619C67F007D4FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C2C2619C67F007D4FB2 /* SceneDelegate.swift */; };
-		80001C2F2619C67F007D4FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C2E2619C67F007D4FB2 /* ViewController.swift */; };
 		80001C322619C67F007D4FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80001C302619C67F007D4FB2 /* Main.storyboard */; };
 		80001C342619C684007D4FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80001C332619C684007D4FB2 /* Assets.xcassets */; };
 		80001C372619C684007D4FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80001C352619C684007D4FB2 /* LaunchScreen.storyboard */; };
+		80001C43261A012C007D4FB2 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C42261A012C007D4FB2 /* TutorialPageViewController.swift */; };
+		80001C45261A11D2007D4FB2 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C44261A11D2007D4FB2 /* GreenViewController.swift */; };
+		80001C47261A1224007D4FB2 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C46261A1224007D4FB2 /* RedViewController.swift */; };
+		80001C49261A1273007D4FB2 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80001C48261A1273007D4FB2 /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80001C272619C67F007D4FB2 /* PageViewController Simple Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PageViewController Simple Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80001C2A2619C67F007D4FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80001C2C2619C67F007D4FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80001C2E2619C67F007D4FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80001C312619C67F007D4FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80001C332619C684007D4FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80001C362619C684007D4FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80001C382619C684007D4FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80001C42261A012C007D4FB2 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		80001C44261A11D2007D4FB2 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		80001C46261A1224007D4FB2 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		80001C48261A1273007D4FB2 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				80001C2A2619C67F007D4FB2 /* AppDelegate.swift */,
 				80001C2C2619C67F007D4FB2 /* SceneDelegate.swift */,
-				80001C2E2619C67F007D4FB2 /* ViewController.swift */,
 				80001C302619C67F007D4FB2 /* Main.storyboard */,
+				80001C42261A012C007D4FB2 /* TutorialPageViewController.swift */,
+				80001C44261A11D2007D4FB2 /* GreenViewController.swift */,
+				80001C48261A1273007D4FB2 /* BlueViewController.swift */,
+				80001C46261A1224007D4FB2 /* RedViewController.swift */,
 				80001C332619C684007D4FB2 /* Assets.xcassets */,
 				80001C352619C684007D4FB2 /* LaunchScreen.storyboard */,
 				80001C382619C684007D4FB2 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80001C2F2619C67F007D4FB2 /* ViewController.swift in Sources */,
+				80001C47261A1224007D4FB2 /* RedViewController.swift in Sources */,
+				80001C45261A11D2007D4FB2 /* GreenViewController.swift in Sources */,
 				80001C2B2619C67F007D4FB2 /* AppDelegate.swift in Sources */,
 				80001C2D2619C67F007D4FB2 /* SceneDelegate.swift in Sources */,
+				80001C49261A1273007D4FB2 /* BlueViewController.swift in Sources */,
+				80001C43261A012C007D4FB2 /* TutorialPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
